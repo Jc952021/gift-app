@@ -1,0 +1,20 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+padding: 60px;
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  align-items: center;
+  justify-items:  center;
+}
+
+.grid-item{
+
+  overflow: hidden;
+  margin-bottom: 50px;
+}
